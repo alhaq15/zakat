@@ -1,0 +1,17 @@
+Buatkan kode python untuk membaca data file excel yang berupa teks dan angka.
+Buatkan kode python untuk membuat beberapa templat paragraf laporan zakat fitrah yang terdiri dari:
+1. Salam pembuka,
+2. Judul laporan zakat,
+3. Identitas mesjid,
+4. Ringkasan zakat dan infak,
+5. Pesan penutup.
+Slot data pada paragraf 1, 2, 3, 5 diisi dari inputan pengguna.
+Khusus slot data pada paragraf 5 yaitu Ringkasan Zakat dan Infak diisi dari data excel.
+Buatkan templat paragraf 5 yang terdiri dari:
+1. Sub paragraf penerimaan zakat berupa beras dan uang serta jumlah penyetor/muzaki,
+2. Sub paragraf penerimaan infak berupa beras dan uang serta jumlah donatur,
+3. Sub paragraf penyaluran zakat dan infak berupa beras dan uang serta jumlah penerima/mustahiq
+4. Sub paragraf yang menjelaskan saldo akhir dari total penerimaan zakat beras dan uang, total penyaluran zakat beras dan uang, dan sisa beras dan uang.
+Buatkan juga fungsi konversi angka ke terbilang dalam bahasa Indonesia untuk mengubah data angka dari excel menjadi terbilang.
+Paragraf 1,2,3,4 yang berisi angka akan dikonversi menjadi terbilang.
+Buatkan juga kode python untuk prompting ke Groq dari paragraf 5 menggunakan API agar kualitas kalimat-kalimatnya dapat diperhalus menggunakan LLM.
